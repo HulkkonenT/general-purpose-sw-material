@@ -47,7 +47,6 @@ legA    legB      hypotenusa
 
 These instructions to be added to branch modification_of_MultipleofXandY.
 
-
 =================================================================================
 
 Example: How to run program Codingtest.py?
@@ -255,3 +254,19 @@ C:\Users\Käyttäjä\eclipse-workspace\Coding_test_numbers\src>c:\python38\pytho
 median is 56
 56 is equal to 56.0
 Inputfile test.txt closed? True
+
+=================================================================================
+
+Program name changed from Codingtest.py to a more descriptive calculate_statistics.py.
+Additionally, the old name caused following comment from the pylint tool:
+
+$ pylint Codingtest.py
+************* Module Codingtest
+Codingtest.py:1:0: C0103: Module name "Codingtest" doesn't conform to snake_case naming style (invalid-name)
+
+Program code has been devided into importable modules, according to argument parsing, reading the input data,
+calculating the statistics and printing the result, the command line syntax remaining the same:
+from argument_parser_resource import parse_arguments
+from reading_the_input_data_resource import read_numbers_from_the_inputfile
+from calculating_the_statistics_resource import return_result_of_the_calculation
+from printing_results_of_calculation_resource import print_result_of_the_calculation
