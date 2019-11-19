@@ -280,3 +280,28 @@ from argument_parser_resource import parse_arguments
 from reading_the_input_data_resource import read_numbers_from_the_inputfile
 from calculating_the_statistics_resource import return_result_of_the_calculation
 from printing_results_of_calculation_resource import print_result_of_the_calculation
+
+===================================================================================
+
+The -n argument has now a default value, so it is not necessarily needed in the comparison.
+
+$ c:/python38/python.exe calculate_statistics.py test.txt avg -h
+usage: calculate_statistics.py [-h] [-gt] [-lt] [-eq] [-n N] InputFileName {sum,avg,median}
+
+positional arguments:
+  InputFileName     name of the input file
+  {sum,avg,median}  Calculation choices are: sum, average or median
+
+optional arguments:
+  -h, --help        show this help message and exit
+  -gt               comparison operator greater than
+  -lt               comparison operator less than
+  -eq               comparison operator equal to
+  -n N              number to be compared with the result: default is 10.0
+
+
+$ c:/python38/python.exe calculate_statistics.py test.txt avg -eq
+avg is: 48.666666666666664
+48.666666666666664 is not equal to 10.0
+
+=====================================================================================

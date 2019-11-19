@@ -1,3 +1,8 @@
+"""
+Resource file for reading the input data.
+"""
+
+
 def read_numbers_from_the_inputfile(input_file_name):
     """ Function reads numbers from the given input file and returns
         them as a list of integers """
