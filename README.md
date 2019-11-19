@@ -2,7 +2,8 @@
 Repository containing sw components for different purposes, like coding tests etc.
 
 This repository contains currently two subdirs: cpp and python. They have been created for the c++ and python files, respectively.
-There are currently one .cpp and a couple of .py files in those subdirs.
+
+================================================================================
 
 Example: How to run program python/MultipleofXandY.py?
 
