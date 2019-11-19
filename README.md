@@ -7,7 +7,6 @@ There are currently one .cpp and a couple of .py files in those subdirs.
 Example: How to run program python/MultipleofXandY.py?
 
 Create an input file containing the x and y values, as well the upper limit:
-
 emacs input_file.txt
 
 2 5 11
@@ -31,9 +30,7 @@ Inputfile closed : True
 ==================================================================================
 
 Example: How to run program Pythagoras.cpp?
-
 Create an input file containing legs of the triangle:
-
 emacs Input.dat
 
 legA    legB
@@ -45,7 +42,6 @@ legA    legB
 Run the program by giving name of the output file in the command:
 
 $ g++ -o Pythagora Pythagoras.cpp
-
 $ ./Pythagora Input.dat Output.dat
 
 $ cat Output.dat
@@ -53,9 +49,6 @@ $ cat Output.dat
 legA    legB      hypotenusa
 4.44365 7.44706   8.67206
 4.80599 7.35281   8.78416
-
-These instructions to be added to branch modification_of_MultipleofXandY.
-<<<<<<< HEAD
 
 =================================================================================
 
