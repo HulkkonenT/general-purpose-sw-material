@@ -1,9 +1,19 @@
 # general-purpose-sw-material
-Repository containing sw components for different purposes, like coding tests etc.
+Repository containing sw components for different purposes, like coding and testing.
 
-This repository contains currently two subdirs: cpp and python. They have been created for the c++ and python files, respectively.
+This repository contains currently three subdirectories: cpp, python and robot. They have been created for the c++ and python files, as well as for the Robot Framework based testing, respectively.
 
 ================================================================================
+
+Example: How to run all the PetClinic framework test cases as a single command line script:
+
+$ robot --test "Find All Owners" --test "Find A Specific Owner" --variable SPECFIRSTNAME:Taru --variable SPECLASTNAME:Kuparinen --test "Add Owner" --variable FIRSTNAME:Jare --variable LASTNAME:Kuusonen --variable AOADDRESS:"Sukkokatu 46" --variable AOCITY:Pori --variable AOTELEPHONE:0408999444 --test "Add Pet" --variable PETFIRSTNAME:Sari --variable PETLASTNAME:Sakko --variable ADPETNAME:Sani --variable ADBIRTHDATE:2018-07-21 --variable TYPE:dog --test "Add Visit" --variable VISFIRSTNAME:Kepa --variable VISLASTNAME:Kakko --variable VISPETNAME:Hupi --variable DATE:2020-01-29 --variable DESCRIPTION:Legs --test "Edit Owner" --variable EOFIRSTNAME:Topi --variable EOLASTNAME:Hirvinen --variable CITY:Rovaniemi --variable TELEPHONE:0414567890 --test "Edit Pet" --variable EPFIRSTNAME:Peter --variable EPLASTNAME:McTavish --variable PETNAME:George --variable NEWPETNAME:Josh petclinic.robot
+
+Example: How to run one single test on command line:
+
+$ robot --test "Find A Specific Owner" --variable SPECFIRSTNAME:Masa --variable SPECLASTNAME:Niemi
+
+===============================================================================
 
 Example: How to run program python/MultipleofXandY.py?
 
