@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """!/usr/bin/ python"""
 
 #Resource file for providing general variables for the PetClinic
@@ -15,3 +16,6 @@ AP_TIMEOUT = 25
 AV_TIMEOUT = 25
 EO_TIMEOUT = 28
 EP_TIMEOUT = 28
+=======
+
+>>>>>>> d9de3402e406c7edaa2f70cf65a980bac1f97f97
